@@ -1,8 +1,8 @@
-from my_Practice.processing_files.first_video_to_photo import video_to_images
-from my_Practice.processing_files.calc_similiaty_and_record import calculate_similiaty_and_record
-from my_Practice.processing_files.calc_str_in_txt import count_lines_in_file
-from my_Practice.processing_files.count_equla_strings import count_equal_strings
-from my_Practice.processing_files.create_video_from_images import generate_video_from_images
+from processing_files.first_video_to_photo import video_to_images
+from processing_files.calc_similiaty_and_record import calculate_similiaty_and_record
+from processing_files.calc_str_in_txt import count_lines_in_file
+from processing_files.count_equla_strings import count_equal_strings
+from processing_files.create_video_from_images import generate_video_from_images
 from processing_files import *
 from similarity_algorithm import *
 video_path = 'raw_materials/test_video.mp4'

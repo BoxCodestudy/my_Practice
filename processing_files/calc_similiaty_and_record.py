@@ -1,7 +1,7 @@
-from my_Practice.processing_files import clear_folder
-from my_Practice.processing_files.count_photos_number import count_images_in_directory
-from my_Practice.similarity_algorithm.four_idea import *
-from my_Practice.similarity_algorithm.Hash import *
+from processing_files import clear_folder
+from processing_files.count_photos_number import count_images_in_directory
+from similarity_algorithm.four_idea import *
+from similarity_algorithm.Hash import *
 from numba import jit
 import cv2
 from tqdm import tqdm
